@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thomas Bahamonde | Programming Portfolio</title>
+<meta name="description" content="Portfolio of Thomas Bahamonde, programming technician student.">
+<style>
+:root{--bg:#0f172a;--card:#1e293b;--inner:#151d2e;--ink:#e2e8f0;--muted:#94a3b8;--red:#ef4444;--redline:#b91c1c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.05rem/1.7 "Segoe UI",system-ui,-apple-system,sans-serif}
+main{max-width:50rem;margin:0 auto;padding:3rem 1.25rem 4rem}
+header{text-align:center;margin-bottom:2.5rem}
+h1{font-size:clamp(2rem,7vw,3rem);margin:0;line-height:1.15}
+.sub{color:var(--muted);margin:.4rem 0 1.3rem}
+.btn{display:inline-block;background:var(--redline);color:#fff;border:0;border-radius:8px;padding:.6rem 1.3rem;font:600 1rem inherit;font-family:inherit;cursor:pointer}
+.btn:hover,.btn:focus-visible{background:var(--red);outline:none}
+.card{background:var(--card);border:1px solid #2b3a52;border-radius:14px;padding:1.75rem;margin-bottom:1.5rem}
+h2{display:flex;align-items:center;gap:.6rem;color:var(--red);font-size:1.5rem;margin:0 0 1rem}
+h2 svg{width:1.3rem;height:1.3rem;flex:none}
+h3{font-size:1.05rem;margin:1.25rem 0 .6rem}
+p{margin:.4rem 0}
+.item{background:var(--inner);border-left:4px solid var(--redline);border-radius:8px;padding:.7rem 1rem;margin:.6rem 0}
+.item b{color:var(--red)}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;list-style:none;padding:0;margin:0}
+.chips li{background:var(--inner);border:1px dashed #3b4a63;border-radius:8px;padding:.3rem .85rem;font-size:.97rem}
+footer{text-align:center;color:var(--muted);font-size:.95rem;margin-top:2rem}
+footer a{color:var(--ink)}
+@media print{
+  body{background:#fff;color:#111}
+  .btn{display:none}
+  .card{background:#fff;border-color:#ccc;break-inside:avoid}
+  .item,.chips li{background:#f4f4f4;border-color:#ccc}
+  h2,.item b{color:#b91c1c}
+  .sub,footer{color:#444}
+}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Thomas Bahamonde</h1>
+    <p class="sub">Programming Technician Student</p>
+    <button class="btn" onclick="window.print()">Download PDF</button>
+  </header>
+
+  <section class="card">
+    <h2><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>About Me</h2>
+    <p>Hello, my name is Thomas Bahamonde. I’m passionate about programming, with a particular interest in video games. In my free time, I enjoy watching movies or series.</p>
+    <p>My goal is to become a software developer and continue my studies.</p>
+  </section>
+
+  <section class="card">
+    <h2><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5"/></svg>Present Projects</h2>
+    <p>Right now, I am using Python to learn how to program. In my Programming II class, I am learning object-oriented programming, so I am building a programming foundation by applying everything I have learned in class.</p>
+  </section>
+
+  <section class="card">
+    <h2><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 7-5 5 5 5M16 7l5 5-5 5"/></svg>Past Projects</h2>
+    <p>I worked on a project for a class: a menu-driven system for handling purchases and sales. I used C# and learned a great deal about coding.</p>
+  </section>
+
+  <section class="card">
+    <h2><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 19c1-6 5-11 14-14-1 9-6 13-12 14M5 19l-1 2M9 15l-3-1"/></svg>Future Projects</h2>
+    <p>I am going to learn programming in order to develop a game or an application. In the future, I would like to have my own application.</p>
+  </section>
+
+  <section class="card">
+    <h2><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg>Skills</h2>
+    <h3>Programming languages</h3>
+    <ul class="chips"><li>C#</li><li>Python</li><li>HTML</li><li>C++</li></ul>
+    <h3>Soft skills</h3>
+    <ul class="chips"><li>Problem solving</li><li>Teamwork</li><li>Continuous learning</li><li>Adaptability</li><li>Responsibility</li><li>Creativity</li></ul>
+  </section>
+
+  <footer>
+    <a href="https://github.com/thomasbde7-eng">github.com/thomasbde7-eng</a>
+  </footer>
+</main>
+</body>
+</html>
